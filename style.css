@@ -1,0 +1,51 @@
+/* style.css */
+body {
+     font-family: 'Times New Roman', serif; /* Added font-family */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/011/337/251/large/paperblue-net-sketch-ca-a.jpg?1529052274");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semi-transparente */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 40px;
+    padding-left: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
